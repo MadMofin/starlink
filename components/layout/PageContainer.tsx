@@ -10,8 +10,6 @@ export const PageContainer = ({ children }: { children: React.ReactNode }) => {
         gap-2
         flex
         flex-col
-        lg:ml-64
-        lg:mr-64
       "
     >
       {children}

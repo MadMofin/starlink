@@ -18,9 +18,7 @@ export const TopBar = () => {
         z-20
         bg-background
         border-b
-        border-border
-        lg:ml-64
-        lg:w-[calc(100%-16rem)]
+        border-textPrimary
       "
     >
       <div className="block lg:hidden">
