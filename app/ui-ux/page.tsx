@@ -20,15 +20,15 @@ const Page = () => {
       <div className="flex gap-40 justify-center">
         <AnimatedCard
           image="https://static.vecteezy.com/system/resources/previews/026/979/852/non_2x/jazz-woman-singer-watercolor-music-illustration-isolated-on-white-background-png.png"
-          color="primary"
+          color="bg-primary"
         />
         <AnimatedCard
           image="https://static.vecteezy.com/system/resources/previews/026/979/852/non_2x/jazz-woman-singer-watercolor-music-illustration-isolated-on-white-background-png.png"
-          color="secondary"
+          color="bg-secondary"
         />
         <AnimatedCard
           image="https://static.vecteezy.com/system/resources/previews/026/979/852/non_2x/jazz-woman-singer-watercolor-music-illustration-isolated-on-white-background-png.png"
-          color="tertiary"
+          color="bg-tertiary"
         />
       </div>
     </div>
