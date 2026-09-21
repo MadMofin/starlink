@@ -1,6 +1,6 @@
-import { CodeProps } from "./types";
+import { BoldProps } from "./types";
 
-export const B = ({ children, className = "" }: CodeProps) => {
+export const B = ({ children, className = "" }: BoldProps) => {
   return (
     <span
       className={`

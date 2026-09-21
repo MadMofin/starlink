@@ -10,6 +10,11 @@ export type ParagraphProps = {
   id?: string;
 };
 
+export type BoldProps = {
+  children: React.ReactNode;
+  className?: string;
+};
+
 export type DividerProps = {
   className?: string;
 };
