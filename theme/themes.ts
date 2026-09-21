@@ -1,4 +1,4 @@
-const THEMES = {
+export const THEMES = {
   ONE_LIGHT: "one_light",
 };
 
@@ -24,4 +24,4 @@ export const themes = {
   },
 } as const;
 
-export type ThemeName = keyof typeof themes;
+export type ThemeName = (typeof THEMES)[keyof typeof THEMES];

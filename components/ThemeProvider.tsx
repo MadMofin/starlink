@@ -1,6 +1,6 @@
 "use client";
 
-import { ThemeName, THEMES_LIST, themes } from "@/theme/themes";
+import { ThemeName, THEMES, themes } from "@/theme/themes";
 import {
   createContext,
   useContext,
@@ -18,7 +18,7 @@ export const ThemeContext = createContext<ThemeContextType | undefined>(
   undefined,
 );
 
-const DEFAULT_THEME = THEMES_LIST.THE_POLAROID.name;
+const DEFAULT_THEME = THEMES.ONE_LIGHT;
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [theme, setTheme] = useState<ThemeName>(DEFAULT_THEME);
