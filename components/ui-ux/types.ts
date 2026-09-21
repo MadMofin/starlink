@@ -1,3 +1,5 @@
+import { ImageProps } from "next/image";
+
 export type HeaderProps = {
   children: React.ReactNode;
   className?: string;
@@ -46,4 +48,9 @@ export type ButtonProps = {
   onClick?: () => void;
   children: React.ReactNode;
   className?: string;
+};
+
+export type AnimatedCardProps = {
+  image: string;
+  color: string;
 };

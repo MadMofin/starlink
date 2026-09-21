@@ -1,6 +1,6 @@
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import { TopBar, PageContainer, Footer } from "@/components/layout";
+import { TopBar, PageContainer } from "@/components/layout";
 
 export default function RootLayout({
   children,

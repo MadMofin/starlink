@@ -13,7 +13,7 @@ export const themes = {
     background: "#F8F7F8",
     foreground: "#F8F7F8",
     primary: "#E3ACAE",
-    secondary: "#ECD2D5",
+    secondary: "#995159",
     tertiary: "#9CDBE4",
     textPrimary: "#171717",
     divider: "#828282",

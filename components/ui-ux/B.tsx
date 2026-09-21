@@ -8,6 +8,7 @@ export const B = ({ children, className = "" }: BoldProps) => {
         tracking-normal
         text-lg
         leading-7
+        text-textPrimary
         ${className}
       `}
     >
