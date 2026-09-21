@@ -1,1 +1,1 @@
-export const HOVERABLE_ITEM = "hover:bg-secondary/40";
+export const HOVERABLE_ITEM = "hover:bg-rose/40";

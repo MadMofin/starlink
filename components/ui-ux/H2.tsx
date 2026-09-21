@@ -5,12 +5,11 @@ export const H2 = ({ children, className = "", id }: HeaderProps) => {
     <h2
       id={id}
       className={`
-        font-upheaval
-        lg:text-2xl
-        text-xl
+        text-1xl
         font-bold
-        tracking-wider
+        tracking-[5px]
         text-textPrimary
+        uppercase
         ${className}
       `}
     >

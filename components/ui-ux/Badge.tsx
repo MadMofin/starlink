@@ -4,13 +4,13 @@ export const Badge = ({ children }: { children: React.ReactNode }) => {
       className="
         ml-auto
         text-xs
-        text-primary
+        text-green
         rounded-full
-        bg-primary/10
+        bg-green/10
         px-2
         py-0.5
         text-xs
-        text-primary"
+        text-green"
     >
       {children}
     </span>

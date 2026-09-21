@@ -1,17 +1,15 @@
 import { HeaderProps } from "./types";
 
-export const H1 = ({ children, className = "", id }: HeaderProps) => {
+export const Heading = ({ children, className = "", id }: HeaderProps) => {
   return (
     <h1
       id={id}
       className={`
         font-perandory
-        lg:text-5xl
+        lg:text-[140px]
         text-4xl
         font-bold
         tracking-wider
-        text-textPrimary
-        mb-2
         ${className}
       `}
     >

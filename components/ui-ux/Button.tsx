@@ -14,7 +14,7 @@ export const Button = ({
             mt-4
             cursor-pointer
             rounded-md
-            bg-primary
+            bg-green
             px-8
             py-3
             font-bold

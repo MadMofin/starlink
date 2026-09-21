@@ -12,9 +12,13 @@ export const themes = {
   [THEMES.ONE_LIGHT]: {
     background: "#F8F7F8",
     foreground: "#F8F7F8",
-    primary: "#E3ACAE",
-    secondary: "#995159",
-    tertiary: "#9CDBE4",
+
+    green: "#98A086",
+    rose: "#D16F6F",
+    tam: "#C4A071",
+    beige: "#DFCCB1",
+    brown: "#846044",
+
     textPrimary: "#171717",
     divider: "#828282",
     contrast: "#FFFFFF",

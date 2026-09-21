@@ -1,9 +1,10 @@
+import { P } from "../ui-ux/P";
 import { Logo } from "./Logo";
 
 export const TopBar = () => {
   return (
     <div
-      className="
+      className={`
         fixed
         top-0
         left-0
@@ -12,17 +13,21 @@ export const TopBar = () => {
         px-8
         py-5
         flex
-        items-center
         gap-5
-        justify-between
         z-20
-        bg-background
-        border-b
-        border-textPrimary
-      "
+        bg-brown
+        border
+        border-textPrimary/10
+      `}
     >
       <div className="block lg:hidden">
         <Logo />
+      </div>
+      <div className="flex flex-1 h-full gap-10 justify-end items-end ">
+        <span>Menu 1</span>
+        <span>Menu 2</span>
+        <span>Menu 3</span>
+        <span>Menu 4</span>
       </div>
     </div>
   );

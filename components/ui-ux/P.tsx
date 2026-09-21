@@ -4,10 +4,8 @@ export const P = ({ children, className = "" }: ParagraphProps) => {
   return (
     <p
       className={`
-        mb-2
-        font-normal
-        tracking-normal
-        text-lg
+        font-libreBaskerville
+        tracking-widest
         leading-normal
         text-textPrimary
         ${className}

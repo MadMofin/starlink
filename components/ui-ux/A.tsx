@@ -13,8 +13,8 @@ export const A = ({
       href={href}
       target={target}
       className={`
-        text-primary
-        hover:text-primary/80
+        text-green
+        hover:text-green/80
         ${className}
       `}
     >

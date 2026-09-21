@@ -10,7 +10,7 @@ export const Logo = () => {
           mt-1
           items-center
           gap-2
-          font-upheaval
+          font-perandory
           text-2xl
           lg:text-4xl
           font-bold

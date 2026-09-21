@@ -1,16 +1,14 @@
 export const PageContainer = ({ children }: { children: React.ReactNode }) => {
   return (
     <main
-      className="
+      className={`
         min-w-0
         flex-1
-        px-8
-        py-12
-        pt-[5rem]
+        mt-[4rem]
         gap-2
         flex
         flex-col
-      "
+      `}
     >
       {children}
     </main>
