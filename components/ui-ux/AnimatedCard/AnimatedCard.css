@@ -2,6 +2,13 @@
   position: relative;
   width: 350px;
   padding-top: 200px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.animated-card:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
 }
 
 .animated-card-image {
